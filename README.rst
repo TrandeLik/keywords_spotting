@@ -20,10 +20,10 @@
     :Автор: Дмитрий Дмитриевич Феоктистов
     :Научный руководитель: д.т.н., Местецкий Леонид Моисеевич
 
-Abstract
+Аннотация
 ========
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+В работе решается задача поиска ключевых слов в рукописном контексте. Пусть даны изображения некоторого рукописного файла, в котором требуется находить все вхождения введенного слова. Решение этой задачи может значительно упростить работу с архивными данными. Для решения задачи предлагается работать со словами на уровне их штрихового представления и определить метрику на множестве штрихов, с помощью которой можно решить задачу их классификации. После чего строится алгоритм ранжирования слов, использующий информацию о классах штрихов запроса и слов контекста. Для демонстрации результатов работы используются изображения работ участников ''Тотального диктанта''.
 
 Research publications
 ===============================
