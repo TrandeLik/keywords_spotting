@@ -1,3 +1,5 @@
+# Обзор литературы
+
 | Название | Год |Автор | Ссылка | Идея |
 | -------- |---- | ----- | ------ | ---- |
 | Keyword Spotting with Quaternionic ResNet: Application to Spotting in Greek Manuscripts | 2022 | Giorgos Sfikas | [Ссылка](https://www.cse.uoi.gr/~sfikas/DAS2022-Sfikas-QuaternionResnet.pdf) | Применение ResNet с квартенионами позволило достичь хорошей точности и маленького потребления памяти |
@@ -41,3 +43,12 @@
 | Handwriting Trajectory Recovery using End-to-End Deep Encoder-Decoder Network | 2018 | Ayan Kumar Bhunia | [ссылка](https://arxiv.org/pdf/1801.07211.pdf) | Сведение задачи оффлайн распознавания к онлайн распознаванию с помощью LSTM |
 | Deep Learning Features for Handwritten Keyword Spotting | 2016 | Baptiste Wicht | [ссылка](https://ieeexplore.ieee.org/abstract/document/7900165) | Обучение без учителя Conv Deep Belief Network, патчирование изображения, выходы сети используются для сопоставления с запросом с помощью DTW/классифицируются с помощью марковских моделей |
 | Hough Transform-Based Angular Features for Learning-Free Handwritten Keyword Spotting | 2021 | Subhranil Kundu | [ссылка](https://www.mdpi.com/1424-8220/21/14/4648) | Получение признаков с помощью преобразования Хаффмана и DTW для вычисления соответствия запросу |
+
+
+# Планирование эксперимента
+
+1) Классификация с помощью Фреше и DTW на синтестических данных, KNN
+2) Отбор коэффициентов Фурье по отношению внутриклассовое/межклассовое расстояние (реальные данные)
+3) Обучение метрики (реальные данные)
+4) Сравнение: DTW, Фреше, Фурье до обучения, Фурье после обучения на KNN на реальных данных
+В 2)-3) точно нужны реальные данные, так как хорошую синтетику сделать крайне сложно
