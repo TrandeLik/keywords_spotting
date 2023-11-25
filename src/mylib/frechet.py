@@ -14,10 +14,10 @@ def txt2streaks(name):
 
     for i, line in enumerate(f):
         words = line.strip().split()
-        if words[0] == "Штрих":
+        if words[0] == "?????":
             if words[1] != "0":
                 len_stroke = len(np.array(l))
-                if len_stroke >= 4:
+                if len_stroke >= 0:
                     list_Streaks += [Streak(num_stroke, style, np.array(l))]
                     num_stroke += 1
             style = words[2]
@@ -26,7 +26,7 @@ def txt2streaks(name):
             l += [[float(words[0]), float(words[1])]]
 
     len_stroke = len(np.array(l))
-    if len_stroke >= 4:
+    if len_stroke >= 0:
         list_Streaks += [Streak(num_stroke, style, np.array(l))]
 
     return list_Streaks
