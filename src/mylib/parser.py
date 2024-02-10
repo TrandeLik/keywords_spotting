@@ -1,3 +1,5 @@
+# This code belongs to Pazazia Alexander and used to compare his and my method
+
 import numpy as np
 import scipy as sp
 import re
