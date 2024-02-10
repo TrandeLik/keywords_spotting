@@ -1,3 +1,5 @@
+# This code belongs to Pronina Natalia and used to compare her and my method
+
 import numpy as np
 
 def euclidean(point1, point2):
